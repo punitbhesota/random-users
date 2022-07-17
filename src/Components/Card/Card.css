@@ -24,7 +24,7 @@
   font-weight: 400;
   font-size: 14px;
   text-align: left;
-  color: grey;
+  color: #e16259;
 }
 .card--2 {
   width: 250px;
@@ -47,6 +47,14 @@
   text-align: left;
 }
 .Card:active {
-  color: white;
   background: #a259ff;
+}
+.Card:hover {
+  background: #a259ff;
+}
+.Card:active div {
+  color: white;
+}
+.Card:hover div {
+  color: white;
 }
