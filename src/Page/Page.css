@@ -1,0 +1,22 @@
+.Page {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+.selected-card {
+  display: grid;
+  place-items: center;
+}
+
+.all-cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0px;
+  justify-content: center;
+  max-width: 1600px;
+}
+.user-card {
+  margin: 8px;
+  background-color: white;
+  border-radius: 4px;
+}

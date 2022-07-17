@@ -1,0 +1,25 @@
+.Nav {
+  display: flex;
+  padding: 1rem 2rem 1rem 4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav h1 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+}
+.Nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 18%;
+}
+.Nav-links div {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 17px;
+}
+.Nav-links div:nth-child(1) {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #e16259;
+}
