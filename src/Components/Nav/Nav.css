@@ -23,3 +23,19 @@
   padding-bottom: 2px;
   border-bottom: 2px solid #e16259;
 }
+@media (max-width: 1000px) {
+  .Nav {
+    padding: 0 10px;
+  }
+  .Nav h1 {
+    font-size: 20px;
+  }
+  .Nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+  .Nav-links div {
+    font-size: 15px;
+  }
+}

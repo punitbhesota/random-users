@@ -27,8 +27,8 @@ function MainCard({
         </h1>
         <div className="address-timezone-gender">
           <div className="address">
-            <p id="street">{streetNumber}</p>,{streetName},{city},{state},
-            <p id="country">{country}</p>,{postcode}
+            <div id="street">{streetNumber}</div>,{streetName},{city},{state},
+            <div id="country">{country}</div>,{postcode}
           </div>
           <div className="timezone">
             {timezone}&nbsp;-&nbsp;{timezoneDis}
